@@ -1,17 +1,21 @@
-import { useState } from 'react'
+import React from 'react';
+import { Navbar, Footer } from './components/components.index';
+import { useState} from 'react';
 
-function App() {
+type Props = {}
+
+const App = (props: Props) => {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <div className="card">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <div>
+        <Navbar/>
       </div>
+      <div>
+        Hello World
+      </div>
+      
     </div>
   )
 }
