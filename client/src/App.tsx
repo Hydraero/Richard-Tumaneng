@@ -8,7 +8,7 @@ const App = (props: Props) => {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="bg-slate-100 w-full overflow-hidden">
+    <div className="bg-slate-100 w-full overflow-hidden App">
       <div>
         <Navbar/>
       </div>
