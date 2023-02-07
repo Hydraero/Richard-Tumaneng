@@ -4,7 +4,9 @@ type Props = {}
 
 const Hero = (props: Props) => {
   return (
-    <div>Hero</div>
+    <section id="home" className="flex md:flex-row flex-col">
+      Hello
+    </section>
   )
 }
 

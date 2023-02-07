@@ -12,14 +12,14 @@ const Navbar = (props: Props) => {
     return (
         <nav className= "w-full flex py-6 justify-between items-center navbar">
             <a href= '#home'>
-                <img src={logo} alt="richard-tumaneng" className="cursor-pointer w-[124px] h-[32px]"></img>
+                <img src={logo} alt="richard-tumaneng" className="hover:scale-110 transition duration-300 ease-in-out cursor-pointer w-[124px] h-[32px]"></img>
             </a>
 
             <ul className="list-none sm: flex justify-end items-center flex-1">
                 {navLinks.map((nav,index) => (
                     <li
                         key={nav.id}
-                        className="font-robotomono mr-10"
+                        className="hover:text-slate-500 font-robotomono mr-10"
                     >
                         
                         <a href={`#${nav.id}`}>
@@ -28,7 +28,7 @@ const Navbar = (props: Props) => {
                     </li>
                 ))}
                 <li className='font-robotomono mr-10'>
-                    <button className="bg-black hover:bg-slate-500 text-white py-2 px-4 rounded-full">
+                    <button className="bg-black hover:bg-slate-500 text-white py-2 px-4 rounded-full hover:scale-110 transition duration-300 ease-in-out">
                         <a href= {resume} download>
                             Resume
                         </a>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Footer } from './components/components.index';
+import { Navbar, Hero ,Footer } from './components/components.index';
 import { useState} from 'react';
 
 type Props = {}
@@ -8,12 +8,12 @@ const App = (props: Props) => {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div className="bg-slate-100 w-full overflow-hidden">
       <div>
         <Navbar/>
       </div>
       <div>
-        Hello World
+        <Hero/>
       </div>
       
     </div>
