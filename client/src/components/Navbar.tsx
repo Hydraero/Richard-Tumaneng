@@ -5,6 +5,8 @@ import { navLinks } from "../constants/constants.index";
 import logo from "../assets/logo.svg"
 import resume from "../assets/Richard_Tumaneng_Resume.pdf"
 
+//import { logo, resume } from "../assets";
+
 type Props = {}
 
 const Navbar = (props: Props) => {
