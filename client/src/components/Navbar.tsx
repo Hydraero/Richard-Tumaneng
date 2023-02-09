@@ -12,16 +12,16 @@ type Props = {}
 const Navbar = (props: Props) => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
-        <nav className= "w-full flex py-6 justify-between items-center navbar">
-            <a href= '#home'>
+        <nav className= "w-full flex py-0 pl-5 md:py-6 justify-between items-center navbar">
+            <a href= '#home' className="">
                 <img src={logo} alt="richard-tumaneng" className="hover:scale-110 transition duration-300 ease-in-out cursor-pointer w-[124px] h-[32px]"></img>
             </a>
 
-            <ul className="list-none sm: flex justify-end items-center flex-1">
+            <ul className="list-none sm:flex justify-end items-center flex-1">
                 {navLinks.map((nav,index) => (
                     <li
                         key={nav.id}
-                        className="hover:text-slate-500 font-robotomono mr-10"
+                        className="hover:text-slate-500 font-robotomono mr-10 invisible md:visible"
                     >
                         
                         <a href={`#${nav.id}`}>
@@ -29,20 +29,12 @@ const Navbar = (props: Props) => {
                         </a>
                     </li>
                 ))}
-                <li className='font-robotomono mr-10'>
-                    <button className="bg-gradient-to-br from-gray-900 to-gray-700 hover:bg-slate-500 text-white py-2 px-4 rounded-full hover:scale-110 transition duration-300 ease-in-out">
-                        <a href= {resume} download>
-                            Resume
-                        </a>
-                    </button>
-                </li>
             </ul>
-            
-            {/** 
-            * TODO:
-            * Navbar/Hamburger button for Mobile
-            */}
-            <div></div>
+            <button className="font-robotomono mr-7 md:mr-10 bg-gradient-to-br from-gray-900 to-gray-700 hover:bg-slate-500 text-white py-2 px-4 rounded-full hover:scale-110 transition duration-300 ease-in-out">
+                <a href= {resume} download>
+                    Resume
+                </a>
+            </button>
 
             
         </nav>
