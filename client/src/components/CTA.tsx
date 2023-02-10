@@ -4,7 +4,13 @@ type Props = {}
 
 const CTA = (props: Props) => {
   return (
-    <div>CTA</div>
+    <div>
+      <main>
+        <section id='contact' className='text-center h-screen'>
+          Contact
+        </section>
+      </main>
+    </div>
   )
 }
 
