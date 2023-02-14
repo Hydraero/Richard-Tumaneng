@@ -1,0 +1,1 @@
+declare module '@alpinejs/intersect'; //https://alpinejs.dev/plugins/intersect

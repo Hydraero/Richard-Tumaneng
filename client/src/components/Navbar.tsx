@@ -30,7 +30,7 @@ const Navbar = (props: Props) => {
                     </li>
                 ))}
             </ul>
-            <button className="font-robotomono mr-7 md:mr-10 bg-gradient-to-br from-gray-900 to-gray-700 hover:bg-slate-500 text-white py-2 px-4 rounded-full hover:scale-110 transition duration-300 ease-in-out">
+            <button className="font-robotomono mr-7 md:mr-10 bg-gradient-to-br from-gray-900 to-gray-700 hover:bg-slate-500 text-white py-2 px-4 rounded-full hover:animate-jello-vertical">
                 <a href= {resume} download>
                     Resume
                 </a>
