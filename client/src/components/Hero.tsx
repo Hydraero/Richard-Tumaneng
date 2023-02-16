@@ -55,7 +55,7 @@ const Hero = (props: Props) => {
             </div>  
           </h1>
           <div className="flex flex-col md:flex-row">
-            <div className='mx-3 md:mx-48 my-0 md:my-10 mb-24 md:mb-48 basis-1/2 text-center md:text-left'
+            <div className='mx-3 md:mx-48 my-0 md:my-12 mb-24 md:mb-48 basis-1/2 text-center md:text-left'
             x-intersect="$el.classList.add('animate-slide-in-left')">
               <p>
                 I'm a Software Engineer and Full Stack Web developer with 4+ years of experience.
@@ -63,23 +63,28 @@ const Hero = (props: Props) => {
                 I specialize in web development, mobile app development, and database design. I'm passionate about creating innovative solutions to complex problems and strive to stay up-to-date on the latest technologies.
               </p>
             </div>
-            <div className="mx-3 md:mx-12 md:basis-1/2 text-center">
-              <h1 className="text-gray-500 text-xl mb-10">
-                What I do
-              </h1>
-              <h2>
-                <ul className="text-left space-y-12">
-                  <li>
-                    Full Stack Development
-                  </li>
-                  <li>
-                    Software Engineer
-                  </li>
-                  <li>
-                    Android Engineering
-                  </li>
-                </ul>
-              </h2>
+
+            <div className="mx-3 md:mx-12 md:basis-1/2 text-center" x-intersect="$el.classList.add('animate-slide-in-right')">
+              <div>
+                <h1 className="text-gray-500 text-xl mb-5">
+                  What I do
+                </h1>
+              </div>
+              <div>
+                <h2>
+                  <ul className="text-left space-y-8">
+                    <li>
+                      Full Stack Development
+                    </li>
+                    <li>
+                      Software Engineer
+                    </li>
+                    <li>
+                      Android Engineering
+                    </li>
+                  </ul>
+                </h2>
+              </div>
             </div>
 
           </div>

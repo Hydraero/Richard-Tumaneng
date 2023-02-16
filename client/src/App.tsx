@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Hero ,Footer } from './components/components.index';
+import { Navbar, Hero ,Footer, CTA } from './components/components.index';
 import { useState} from 'react';
 
 type Props = {}
@@ -14,6 +14,12 @@ const App = (props: Props) => {
       </div>
       <div>
         <Hero/>
+      </div>
+      <div>
+        <CTA/>
+      </div>
+      <div>
+        <Footer/>
       </div>
       
     </div>
