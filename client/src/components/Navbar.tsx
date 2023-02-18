@@ -12,7 +12,7 @@ type Props = {}
 const Navbar = (props: Props) => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
-        <nav className= "w-full flex py-0 pl-5 md:py-6 justify-between items-center navbar">
+        <nav className= "w-full flex pt-0 pb-0 pl-5 md:pt-6 md:pb-2 justify-between items-center navbar">
             <a href= '#home' className="">
                 <img src={logo} alt="richard-tumaneng" className="hover:scale-110 transition duration-300 ease-in-out cursor-pointer w-[124px] h-[32px]"></img>
             </a>
@@ -35,6 +35,7 @@ const Navbar = (props: Props) => {
                     Resume
                 </a>
             </button>
+            
 
             
         </nav>

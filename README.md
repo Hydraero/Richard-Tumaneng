@@ -45,6 +45,7 @@ This project uses the following Front end and Back end technologies and language
     - react-type-animation
     - react-dom
     - react-icons 
+    - react-tabs (Used for tabs on About Me section. Used the following tutorial: https://blog.logrocket.com/how-to-build-tab-component-react/)
     - @types/react
     - @types/react-dom
     - @types/alpinejs
@@ -69,6 +70,5 @@ This project uses the following Front end and Back end technologies and language
  
 TODO LIST
 - Improve SEO (meta tags)
-- Hide Navbar for mobile
-- Center scroll down sign and animate bounce
+- Edit tailwind config to allow for easy dark mode/light mode transitions
 - 

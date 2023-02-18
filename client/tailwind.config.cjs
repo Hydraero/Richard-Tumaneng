@@ -13,7 +13,9 @@ module.exports = {
         "fade-in-fwd": "fade-in-fwd 2s cubic-bezier(0.390, 0.575, 0.565, 1.000)   both",
         "slide-in-left": "slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both",
         "slide-in-right": "slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both",
-        "slide-out-left": "slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530)   both"
+        "slide-out-left": "slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530)   both",
+        "heartbeat": "heartbeat 1.5s ease  infinite both",
+        "swing-in-top-bck": "swing-in-top-bck 2s cubic-bezier(0.175, 0.885, 0.320, 1.275)   both"
       },
       keyframes: {
         "fade-in-left": {
@@ -85,9 +87,48 @@ module.exports = {
               transform: "translateX(-1000px)",
               opacity: "0"
           }
-        }
+        },
+        "heartbeat": {
+          "0%": {
+              transform: "scale(1)",
+              "transform-origin": "center center",
+              "animation-timing-function": "ease-out"
+          },
+          "10%": {
+              transform: "scale(.91)",
+              "animation-timing-function": "ease-in"
+          },
+          "17%": {
+              transform: "scale(.98)",
+              "animation-timing-function": "ease-out"
+          },
+          "33%": {
+              transform: "scale(.87)",
+              "animation-timing-function": "ease-in"
+          },
+          "45%": {
+              transform: "scale(1)",
+              "animation-timing-function": "ease-out"
+          }
+        },
+        "swing-in-top-bck": {
+          "0%": {
+              transform: "rotateX(70deg)",
+              "transform-origin": "top",
+              opacity: "0"
+          },
+          to: {
+              transform: "rotateX(0deg)",
+              "transform-origin": "top",
+              opacity: "1"
+          }
+        },
       },
       colors: {
+        primary: '#f1f5f9', // Primary background color slate-100
+        secondary: '#cbd5e1', // Secondary color slate-300
+        tertiary: '#374151',
+        text: '#64748b', //Primary text color slate
 
       },
       fontFamily: {

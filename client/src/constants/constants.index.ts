@@ -1,8 +1,8 @@
 //pattern followed from: https://gist.github.com/adrianhajdin/8a04faf5e52419ec93cd5329ffcb011e
 export const navLinks = [
   {
-    id: "about-me",
-    title: "About Me",
+    id: "home",
+    title: "Home",
   },
   {
     id: "skills",
