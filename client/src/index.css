@@ -79,3 +79,7 @@
   font-size: 1.25rem;
   text-align: center;
 }
+
+.dark {
+  @apply bg-gray-800 text-zinc-50;
+}

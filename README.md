@@ -46,6 +46,7 @@ This project uses the following Front end and Back end technologies and language
     - react-dom
     - react-icons 
     - react-tabs (Used for tabs on About Me section. Used the following tutorial: https://blog.logrocket.com/how-to-build-tab-component-react/)
+    - react-toggle-dark-mode (Followed the tutorial: https://www.geeksforgeeks.org/how-to-add-dark-mode-in-reactjs-using-tailwind-css/)
     - @types/react
     - @types/react-dom
     - @types/alpinejs

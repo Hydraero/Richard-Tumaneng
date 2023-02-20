@@ -128,8 +128,9 @@ module.exports = {
         primary: '#f1f5f9', // Primary background color slate-100
         secondary: '#cbd5e1', // Secondary color slate-300
         tertiary: '#374151',
-        text: '#64748b', //Primary text color slate
-
+        primtext: '#64748b', //Primary text color slate
+        primarydark: '0f127a', //Primary dark slate-900
+        primdarktext: '#f1f5f9',
       },
       fontFamily: {
         robotomono: ["Roboto Mono"]
@@ -137,4 +138,5 @@ module.exports = {
     },
   },
   plugins: [],
+  darkMode: "class",
 }

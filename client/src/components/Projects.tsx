@@ -5,11 +5,11 @@ type Props = {}
 const Projects = (props: Props) => {
     return (
         <div>
-            <section id='projects'>
+            <section id='projects' className="font-robotomono dark:text-primary">
                 <div className="py-8 text-4xl ">
-                    <h1 className="flex mx-3 md:mx-4 text-gray-500 justify-center">Projects</h1>
+                    <h1 className="flex mx-3 md:mx-4 text-gray-500 dark:text-primary justify-center">Projects</h1>
                 </div>
-                <div className="py-12 md:py-24 flex flex-col md:flex-row md:flex-wrap space-y-10 space-x-0 md:space-y-0 md:space-x-5 justify-center items-center">
+                <div className="my-12 md:my-24 flex flex-col md:flex-row md:flex-wrap space-y-10 space-x-0 md:space-y-0 md:space-x-5 justify-center items-center">
                     <div className="w-5/6 md:w-1/3 rounded overflow-hidden shadow-lg transition duration-500 hover:scale-105 my-10">
                         <img className="w-full" src={aichat} alt="Sunset in the mountains" />
                         <div className="mx-6 my-4">
@@ -70,7 +70,7 @@ const Projects = (props: Props) => {
                             <span className="inline-block bg-slate-200 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">#Node.js</span>
                         </div>
                     </div>
-
+                    
                     <div className="w-5/6 md:w-1/3 rounded overflow-hidden shadow-lg transition duration-500 hover:scale-105 my-10">
                         <img className="w-full" src={aichat} alt="Sunset in the mountains" />
                         <div className="mx-6 my-4">

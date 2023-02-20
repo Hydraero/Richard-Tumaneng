@@ -14,10 +14,10 @@ const Hero = (props: Props) => {
   return (
   <div>
     <main>
-      <section id="home" className="h-screen select-none">
-        <div className="font-robotomono flex flex-col md:flex-row text-center md:text-start px-10 py-24 md:p-32 text-2xl">
+      <section id="home" className="h-screen select-none text-primarydark dark:text-primdarktext">
+        <div className="font-robotomono flex flex-col md:flex-row text-center md:text-start px-5 py-24 md:p-32 text-2xl">
           <h1 className="py-2 leading-9 animate-fade-in-fwd md:animate-fade-in-left">
-            Hey there, I'm <span className="bg-slate-200 text-3xl font-semibold">Richard Tumaneng</span> and I am a
+            Hey there, I'm <span className="bg-slate-200 dark:bg-slate-800 text-3xl font-semibold">Richard Tumaneng</span> and I am a
             <TypeAnimation
               sequence={[
                 'Software Engineer',
