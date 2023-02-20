@@ -34,7 +34,7 @@ const Hero = (props: Props) => {
             />
           </h1>
         </div>
-        <div className="my-48 md:my-48">
+        <div className="my-32 md:my-48">
           <div className="animate-bounce py-5 flex flex-col items-center text-5xl">
               <div className="font-robotomono text-lg">
                 Scroll Down
