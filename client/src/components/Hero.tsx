@@ -6,10 +6,6 @@ import { TypeAnimation } from 'react-type-animation' //Documentation here: https
 
 type Props = {}
 
-window.Alpine = Alpine
-Alpine.start()
-Alpine.plugin(intersect)
-
 const Hero = (props: Props) => {
   return (
   <div>

@@ -2,8 +2,14 @@ import React from 'react';
 import { Navbar, Hero ,Footer, CTA, About, Projects } from './components/components.index';
 import { useState, useEffect} from 'react';
 import arrow from "./assets/arrow.svg"
+import Alpine from 'alpinejs'
+import intersect from '@alpinejs/intersect'
 
 type Props = {}
+
+window.Alpine = Alpine
+Alpine.start()
+Alpine.plugin(intersect)
 
 const App = (props: Props) => {
   const [count, setCount] = useState(0)

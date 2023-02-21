@@ -15,7 +15,8 @@ module.exports = {
         "slide-in-right": "slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both",
         "slide-out-left": "slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530)   both",
         "heartbeat": "heartbeat 1.5s ease  infinite both",
-        "swing-in-top-bck": "swing-in-top-bck 2s cubic-bezier(0.175, 0.885, 0.320, 1.275)   both"
+        "swing-in-top-bck": "swing-in-top-bck 2s cubic-bezier(0.175, 0.885, 0.320, 1.275)   both",
+        "swing-in-left-fwd": "swing-in-left-fwd 2s cubic-bezier(0.175, 0.885, 0.320, 1.275)   both",
       },
       keyframes: {
         "fade-in-left": {
@@ -123,6 +124,18 @@ module.exports = {
               opacity: "1"
           }
         },
+        "swing-in-left-fwd": {
+          "0%": {
+              transform: "rotateY(100deg)",
+              "transform-origin": "left",
+              opacity: "0"
+          },
+          to: {
+              transform: "rotateY(0)",
+              "transform-origin": "left",
+              opacity: "1"
+          }
+        }
       },
       colors: {
         primary: '#f1f5f9', // Primary background color slate-100
