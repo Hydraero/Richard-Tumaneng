@@ -17,7 +17,7 @@ const Projects = (props: Props) => {
                         <div className="mx-6 my-4">
                             <div className="font-bold text-xl mb-2">AI Chat</div>
                             <p className="">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                                This project is an AI Chat bot that utilizes the OpenAI GPT-3 API. This project was created with vanilla javascript, node, and express to connect the API to the front end and back end of this project.
                             </p>
                         </div>
                         <div className="flex flex-row justify-evenly pb-4">
@@ -48,7 +48,7 @@ const Projects = (props: Props) => {
                         <div className="mx-6 my-4">
                             <div className="font-bold text-xl mb-2">Portfolio Website</div>
                             <p className="">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                                That's right, this portfolio website was made with love and care. It was also made using TypeScript, React, TailwindCSS, Vite, and Node.js. This portfolio showcases my skills and work.
                             </p>
                         </div>
                         <div className="flex flex-row justify-evenly pb-4">
@@ -69,8 +69,8 @@ const Projects = (props: Props) => {
                             </h1>
                             <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#TypeScript</span>
                             <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#React</span>
-                            <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#Vite</span>
                             <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#Node.js</span>
+                            <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#TailwindCSS</span>
                         </div>
                     </div>
                     
@@ -79,7 +79,7 @@ const Projects = (props: Props) => {
                         <div className="mx-6 my-4">
                             <div className="font-bold text-xl mb-2">Block Locale</div>
                             <p className="">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                                BlockLocale is a passion project created with the idea of leveraging Blockchain Technology for a secure and immutable voting system. The smart contracts were written in Solidity and tested using Truffle and Ganache.
                             </p>
                         </div>
                         <div className="flex flex-row justify-evenly pb-4">
