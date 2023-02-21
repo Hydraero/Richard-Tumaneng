@@ -36,7 +36,7 @@ const App = (props: Props) => {
       </div>
 
       <div>
-        {/*add cta*/}
+        <CTA/>
       </div>
 
       <div>

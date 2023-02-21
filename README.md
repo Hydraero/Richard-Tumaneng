@@ -72,4 +72,4 @@ This project uses the following Front end and Back end technologies and language
 TODO LIST
 - Improve SEO (meta tags)
 - Edit tailwind config to allow for easy dark mode/light mode transitions
-- 
+- Edit temporary contact form. Currently using formsubmit, need to create react form handler and use nodemailer in server directory.
