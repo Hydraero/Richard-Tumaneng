@@ -5,7 +5,7 @@ type Props = {}
 const CTA = (props: Props) => {
   return (
     <div>
-      <section id='contact' className="font-robotomono dark:text-primary text-center h-screen">
+      <section id='contact' className="font-robotomono dark:text-primary text-center">
         <div className="pt-32 pb-20 text-4xl ">
           <h1 className="flex mx-3 md:mx-4 text-gray-500 dark:text-primary justify-center">Contact Me</h1>
         </div>
