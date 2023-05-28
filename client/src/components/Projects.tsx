@@ -82,7 +82,7 @@ const Projects = (props: Props) => {
                         <div className="mx-6 my-4">
                             <div className="font-bold text-xl mb-2">Buttery</div>
                             <p className="">
-                                Buttery is a movie database searching application created using Next.js that allows users to search for a movie and add movies to a favorites list.
+                                Buttery is a movie database searching application created using Next.js that allows users to search for a movie and add movies to a favorites list. A RapidAPI alternative movie database was used to create the search function.
                             </p>
                         </div>
                         <div className="flex flex-row justify-evenly pb-4">
@@ -106,6 +106,7 @@ const Projects = (props: Props) => {
                             <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#TypeScript</span>
                             <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#Tailwind</span>
                             <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#Chakra</span>
+                            <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#API</span>
                         </div>
                     </div>
 
