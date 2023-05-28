@@ -73,3 +73,5 @@ TODO LIST
 - Improve SEO (meta tags)
 - Edit tailwind config to allow for easy dark mode/light mode transitions
 - Edit temporary contact form. Currently using formsubmit, need to create react form handler and use nodemailer in server directory.
+- Improve projects cards to be evenly sized 
+- Update Logo
