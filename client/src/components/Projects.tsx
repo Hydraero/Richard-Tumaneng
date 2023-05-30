@@ -48,9 +48,9 @@ const Projects = (props: Props) => {
                     <div className="dark:bg-slate-800 w-5/6 md:w-1/3 rounded overflow-hidden shadow-lg my-10 transition duration-500 hover:scale-105">
                         <img className="w-full" src={ned} alt="Sunset in the mountains" />
                         <div className="mx-6 my-4">
-                            <div className="font-bold text-xl mb-2">Ned</div>
+                            <div className="font-bold text-xl mb-2">Loaning Software</div>
                             <p className="">
-                                Ned is a small financial product that determines a loaning company's repayment informations depending on the user input.
+                                This was is a small financial product that determines a loaning company's repayment informations depending on the user input.
                             </p>
                         </div>
                         <div className="flex flex-row justify-evenly pb-4">
