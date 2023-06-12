@@ -13,6 +13,7 @@
     "@types/alpinejs": "^3.7.1",
     "@types/node": "^18.11.19",
     "@types/react-type-animation": "^1.1.1",
+    "@vercel/analytics": "^1.0.1",
     "alpinejs": "^3.11.1",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
