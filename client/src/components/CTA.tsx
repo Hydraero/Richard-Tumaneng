@@ -9,7 +9,7 @@ const CTA = (props: Props) => {
         <div className="pt-32 pb-20 text-4xl ">
           <h1 className="flex mx-3 md:mx-4 text-gray-500 dark:text-primary justify-center">Contact Me</h1>
         </div>
-        <div className="flex flex-col items-center container">
+        <div className="flex flex-col items-center">
           <form action="https://formsubmit.co/c8a5cedec2a328d16da2d06d7408a200" method="POST"  className="rounded overflow-hidden">
             <div>
               <input type="text" name="name" placeholder="Your Full Name" className="w-1/2 bg-slate-100 dark:bg-slate-900 rounded border border-gray-300 text-base outline-none py-3 px-3 leading-8 transition-colors duration-200 ease-in-out" required></input>
