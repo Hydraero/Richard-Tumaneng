@@ -57,7 +57,7 @@ const Projects = (props: Props) => {
                                         GitHub
                                     </button>
                                 </a>
-                                <a href="https://strain-api.onrender.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://strains-api-pg-production.up.railway.app/" target="_blank" rel="noopener noreferrer">
                                     <button className="bg-slate-300 dark:bg-slate-600 hover:bg-slate-500 dark:hover:bg-slate-300 py-2 px-4 font-semibold rounded-full">
                                         Live Demo
                                     </button>
