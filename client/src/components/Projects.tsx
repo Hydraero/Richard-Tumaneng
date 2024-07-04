@@ -5,7 +5,7 @@ import buttery from "../assets/img/buttery.png"
 import ned from "../assets/img/ned.png"
 import polls from "../assets/img/polls.png"
 import portfolio from "../assets/img/portfolio.png"
-import strains from "../assets/img/strains.png"
+import strain from "../assets/img/strain.png"
 type Props = {}
 
 const Projects = (props: Props) => {
@@ -44,7 +44,7 @@ const Projects = (props: Props) => {
                             </div>
                         </div>
                         <div className="project-card dark:bg-slate-800 rounded overflow-hidden shadow-lg transition duration-500 hover:scale-105">
-                            <img className="w-full" src={strains} alt="Railway view of deployed MySQL database for Strains API" />
+                            <img className="w-full" src={strain} alt="Railway view of deployed MySQL database for Strains API" />
                             <div className="mx-6 my-4">
                                 <div className="font-bold text-xl mb-2">Strains API</div>
                                 <p className="">
