@@ -52,9 +52,9 @@ const Projects = (props: Props) => {
                                 </p>
                             </div>
                             <div className="flex flex-row justify-evenly pb-4">
-                                <a href="https://github.com/Hydraero/strains-api" target="_blank" rel="noopener noreferrer">
+                                <a href="https://strains-api-pg-production.up.railway.app/api-docs" target="_blank" rel="noopener noreferrer">
                                     <button className="bg-slate-300 dark:bg-slate-600 hover:bg-slate-500 dark:hover:bg-slate-300 py-2 px-4 font-semibold rounded-full">
-                                        GitHub
+                                        Documentation
                                     </button>
                                 </a>
                                 <a href="https://strains-api-pg-production.up.railway.app/" target="_blank" rel="noopener noreferrer">
