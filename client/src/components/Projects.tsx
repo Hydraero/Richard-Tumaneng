@@ -46,18 +46,18 @@ const Projects = (props: Props) => {
                         <div className="project-card dark:bg-slate-800 rounded overflow-hidden shadow-lg transition duration-500 hover:scale-105">
                             <img className="w-full" src={strain} alt="Railway view of deployed MySQL database for Strains API" />
                             <div className="mx-6 my-4">
-                                <div className="font-bold text-xl mb-2">Strains API</div>
+                                <div className="font-bold text-xl mb-2">RootedBase API</div>
                                 <p className="">
                                     A cannabis strains REST API application with 5000+ strains created using the Express.js framework. Created and documented using the standard best practices of API creation with SwaggerHub. The database used for this API is MySQL deployed through Railway.
                                 </p>
                             </div>
                             <div className="flex flex-row justify-evenly pb-4">
-                                <a href="https://strains-api-pg-production.up.railway.app/api-docs" target="_blank" rel="noopener noreferrer">
+                                <a href="https://rootedbase.up.railway.app/api-docs" target="_blank" rel="noopener noreferrer">
                                     <button className="bg-slate-300 dark:bg-slate-600 hover:bg-slate-500 dark:hover:bg-slate-300 py-2 px-4 font-semibold rounded-full">
                                         Documentation
                                     </button>
                                 </a>
-                                <a href="https://strains-api-pg-production.up.railway.app/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://rootedbase.up.railway.app/" target="_blank" rel="noopener noreferrer">
                                     <button className="bg-slate-300 dark:bg-slate-600 hover:bg-slate-500 dark:hover:bg-slate-300 py-2 px-4 font-semibold rounded-full">
                                         Live Demo
                                     </button>
