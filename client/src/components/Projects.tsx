@@ -44,11 +44,11 @@ const Projects = (props: Props) => {
                             </div>
                         </div>
                         <div className="project-card dark:bg-slate-800 rounded overflow-hidden shadow-lg transition duration-500 hover:scale-105">
-                            <img className="w-full" src={strain} alt="Railway view of deployed MySQL database for Strains API" />
+                            <img className="w-full" src={strain} alt="Railway view of deployed PostgresQL database for Strains API" />
                             <div className="mx-6 my-4">
                                 <div className="font-bold text-xl mb-2">RootedBase API</div>
                                 <p className="">
-                                    A cannabis strains REST API application with 5000+ strains created using the Express.js framework. Created and documented using the standard best practices of API creation with SwaggerHub. The database used for this API is MySQL deployed through Railway.
+                                    A cannabis strains REST API application with 5000+ strains created using the Express.js framework. Created and documented using the standard best practices of API creation with SwaggerHub. The database used for this API is PostgresQL deployed through Railway.
                                 </p>
                             </div>
                             <div className="flex flex-row justify-evenly pb-4">
@@ -71,7 +71,7 @@ const Projects = (props: Props) => {
                                 <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#JavScript</span>
                                 <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#API</span>
                                 <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#Railway</span>
-                                <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#MySQL</span>
+                                <span className="inline-block bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-500 rounded-full px-3 py-1 text-sm mr-2 mb-2">#PostgresQL</span>
                             </div>
                         </div>
                         <div className="project-card dark:bg-slate-800 rounded overflow-hidden shadow-lg transition duration-500 hover:scale-105">
