@@ -5,7 +5,7 @@ import { MdLightMode, MdDarkMode } from 'react-icons/md'
 import { useState } from "react";
 import { navLinks } from "../constants/constants.index";
 import logo from "../assets/logo.svg"
-import resume from "../assets/Richard_Tumaneng_Resume.pdf"
+import resume from "../assets/Richard-Tumaneng-Resume.pdf"
 
 //import { logo, resume } from "../assets";
 
